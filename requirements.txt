@@ -1,3 +1,5 @@
+# this file lists all the Python packages of project needs to run. dependencies are installed automatically and deployment becomes easier.
+
 absl-py==2.4.0
 altair==6.1.0
 asttokens==3.0.1
