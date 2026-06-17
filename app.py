@@ -103,7 +103,17 @@ elif menu == "Add Student":
         step=1
     )
 
-    course = st.text_input("Course")
+   course = st.selectbox(
+    "Course",
+    [
+        "Computer Science",
+        "Information Technology",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Data Science",
+        "AI & ML"
+    ])
 
     marks = st.number_input(
         "Marks",
